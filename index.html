@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .login{
+            background-image: url("img/backimg.jpg");
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        form{
+            width: 400px;
+            height: 500px;
+            background-color: #ffffff8a;
+            position: relative;
+            left: calc(50% - 200px);
+            top: calc(50% - 250px);
+            backdrop-filter: blur(20px) saturate(100%);
+            border-radius: 50px;
+        }
+        input[type="text"], input[type="password"]{
+            border-color: #2f7bf2;
+            width: calc(100% - 60px);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-width: 3px;
+            background: transparent;
+            padding-bottom: 10px;
+            font-size: 16px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="">
+            <input placeholder="帳號" type="text">
+            <input placeholder="密碼" type="password">
+            <input type="submit">
+        </form>
+        
+    </div>
+</body>
+</html>
